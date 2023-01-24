@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +48,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wish-bg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  width: 500px;
+  height: 250px;
+  margin: 50px;
+  outline: solid 1px black;
 }
